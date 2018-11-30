@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<!--
+                                                     ```                                            
+                                           `.-:/+oossssssso+/:-.`                                   
+                                       `.:+syyyyyyyyyyyyyyyyyyyys+:.                                
+                                     ./oyyyyyyyyyyyyssssyyyyyyyyyyyyo/.                             
+                                  `-oyyyyyyyyo+/:-..````...-/+oyyyyyyys+.                           
+                                `:syyyyyys+:.`                `.:+syyyyyy+......``                  
+                              `:syyyyyyo:`                        ./syyyyyyyyyyysso/.`              
+                             -oyyyyyyo-                             `/yyyyyyyyyyyyyyyo/`            
+                           `+yyyyyyo-                                 .syyyyyysssyyyyyys:`          
+                          :syyyyys-                                    `oyyyyy+``-+yyyyyyo`         
+                        .oyyyyyy/`                                      `oyyyyy/   .oyyyyys`        
+                       :yyyyyyo.                                         `syyyyy.    /yyyyys`       
+                     .oyyyyyy:                                            :yyyyyo     /yyyyy/       
+                    :yyyyyyo.                                              syyyyy.     syyyyy`      
+                  .oyyyyyy:                                                :yyyyy:     :yyyyy/      
+                `/yyyyyyo`                                                 -yyyyy+     `yyyyyo      
+               -syyyyyy:                                                   -yyyyy/      yyyyys      
+             .oyyyyyy+`                                                    /yyyyy:      yyyyys      
+           -oyyyyyyo.                                            -+o+.    `yyyyyy`     `yyyyyo      
+        `/syyyyyys:                                              syyyo    +yyyyy/      -yyyyy/      
+       -syyyyyys:                                                ./+/.   /yyyyys`      oyyyyy.      
+      .yyyyyy+-                                             -+oo-       +yyyyys.      .yyyyyo       
+      /yyyyy:                                            `:syyyyy.    .oyyyyys.       oyyyyy-       
+      +yyyyy`                                        `.:oyyyyyys/   `/yyyyyyy:       :yyyyyo        
+      /yyyyy:                                   `.-/osyyyyyyys/`  `/syyyyyyyyy+`    .yyyyyy.        
+      `yyyyyy-                       ```..--:/+ssyyyyyyyyys/.`  ./syyyyyysyyyyys/` `syyyyy:         
+       -yyyyyy/`            ./ooooosssssyyyyyyyyyyyyyys+:.`  `:oyyyyyyy+.`/yyyyyys/oyyyyy/          
+        -syyyyys/.          syyyyyyyyyyyyyyyyyysso+:-``   .:+syyyyyys/.    .+yyyyyyyyyyy+           
+         `/yyyyyys+:.       :ossssssssooo+//:-.``    `.-/osyyyyyyyo:`        ./syyyyyyy+`           
+           .+syyyyyyso/-.`   ``````````      ``..-:/osyyyyyyyyyo/.             `-+syyy/             
+             `:oyyyyyyyyyso+/:--..---:://++oosssyyyyyyyyyyyso:.                   `.--              
+                .:osyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyss+:.`                                        
+                   `.:+osyyyyyyyyyyyyyyyyyyyyyssso+/-.`                                             
+                        `.-://++o++++///::--..``
+
+
+                                                                     MangoHacks2018<3
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://lh3.googleusercontent.com/H4JmVsG7iPDd2UOW6XEBhTCp5XOsvvUYGkx6nuKikEJYEOKST7iMolLZiVgMxRxXetX-qr5YbOakzxMe84HnBRG8wKKuKylbZUz4hIbSAGBLFT5ThzuEbUQb_AubZhfAXw9sAjhtAPFAwjkHvTEIR3z8ima3Wmt8vSI0_ELihHQZh5tVKtey-5AbvN3RooFrew-yaypgC_PsLjIETqMUcZNY7_Tmyn9sdwnE6mbaOCMTKLJX2ZoTzy8mFpjvjJAd8K5Aww7c4KM0sTuNv8xQYdZYXte6UF3tUYl3PMCMc8BPMaYxjybkZknrSPyI1GoDfpr1fIz8b4LW6G9EOIxucbQcFyPzEixauhW0hsBPyDfr7BOUGgi4JQKRaInAL0wpkw4JVZ0peCLiyJj2my9WcWJ2nKFr2u5sIOZQw4y1QE3sZZE_tsKc3kD1CKHeDM750FbmGxRR3DNWAXkg403M8rkgVCFwqFJIaa7r8qNgu-wtWCFCOosb4iLza3oSyECC87xyLHzsyXc3UPC1NloHeBEJ9kCoFD9cDIcXKW90ybUpQIxxguFoHAIdAp32gVK8b6RCKYVcWeWJX804VGGls8f7PUQ3klVUNskFokE=w271-h198-no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pill.css">
+    <title>MangoHacks</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- MLH Banner -->
+        <a href="https://mlh.io" target="_blank">
+            <img id="#top" src="https://res.cloudinary.com/devpost/image/fetch/s--3au5xqBy--/c_limit,f_auto,fl_lossy,q_auto,w_900/https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg"
+                class="mlh-banner" alt="">
+        </a>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-toggleable-xl navbar-light bg-faded">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/mangos/black-mango.svg" alt="">
+                </a>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" id="about-nav">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="faq-nav">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sponsors-nav">Sponsors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- PILLS -->
+        <div class="pill-move section-1-pills">
+            <div class="pill" id="pill-5"></div>
+            <div class="pill" id="pill-6"></div>
+            <div class="pill" id="pill-7"></div>
+            <div class="pill" id="pill-8"></div>
+            <div class="pill" id="pill-9"></div>
+            <div class="pill" id="pill-10"></div>
+            <div class="pill" id="pill-11"></div>
+            <div class="pill" id="pill-12"></div>
+            <div class="pill" id="pill-13"></div>
+        </div>
+        <div class="pill-move section-2-pills">
+            <div class="pill" id="pill-5-2"></div>
+            <div class="pill" id="pill-6-2"></div>
+            <div class="pill" id="pill-7-2"></div>
+            <div class="pill" id="pill-8-2"></div>
+            <div class="pill" id="pill-9-2"></div>
+            <div class="pill" id="pill-10-2"></div>
+            <div class="pill" id="pill-11-2"></div>
+            <div class="pill" id="pill-12-2"></div>
+            <div class="pill" id="pill-13-2"></div>
+            <div class="pill" id="pill-14-2"></div>
+        </div>
+        <div class="pill-move section-3-pills">
+            <div class="pill" id="pill-5-3"></div>
+            <div class="pill" id="pill-6-3"></div>
+            <div class="pill" id="pill-7-3"></div>
+            <div class="pill" id="pill-8-3"></div>
+            <div class="pill" id="pill-9-3"></div>
+            <div class="pill" id="pill-10-3"></div>
+            <div class="pill" id="pill-11-3"></div>
+            <div class="pill" id="pill-12-3"></div>
+            <div class="pill" id="pill-13-3"></div>
+        </div>
+
+
+        <!-- SECTION 00 -->
+
+        <div class="page" id="top">
+            <div class="hero">
+                <div class="top-hero">
+                    <img class="mango" src="" id="mango" alt="" />
+                    <h1 class="title"></h1>
+
+                    <div align="center">
+                        <a href="http://mangohacks.com/live" target="_blank">
+                            <button class="signupbutton">Live site!</button>
+                        </a>
+		
+                    </div>
+                    <img class="bg-hero" src="" id="bg-hero" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="content" id="hero">
+                <h2>2018</h2>
+                <header>MangoHacks</header>
+                <p class="slogan">"A celebration with Hackathon elements"</p>
+                <div class="info-2">
+                    <p>MangoHacks is a place for discovery.</p>
+                    <p>Its a 36 hour hackathon that encourages learning, collaboration, growth, innovation, and fun.
+                        <br></br>
+                        We will welcome 350+ students from Florida and across the country
+                        <br></br>
+                        with amazing mentors, and wonderful sponsors to create amazing things.</p>
+                    <p class="hero-slogan">
+                        <i>MangoHacks is organized by students for students.</i>
+                    </p>
+                    <div class="hero-btn">
+                        <div>
+
+                            <a href="signup.html">
+                                <button class="signupbutton-2 btn" hidden>Sign Up!</button>
+                            </a>
+
+                        </div>
+                        <div class="mentorbutton">
+                            <a href="mentor.html" >
+                                <button class="signupbutton-2 btn btn" hidden>Mentor Signup!</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 02 -->
+        <div class="whatis">
+            <div class="content style">
+                <header> What is
+                    <br></br>a Hackathon?</header>
+                <p>MangoHacks is a chance to meet new people, learn something, make something, dream along, and have fun.</p>
+                <p>Everyone is welcome - from the most experienced hackers, designers, and builders to the thinkers and the
+                    curious who have never heard of a hackathon. Regardless of your experience, there is something for you
+                    at MangoHacks.</p>
+                <p> We’d love for you to come learn something new, take the things you love (sports, art, traveling, dogs!) or
+                    care about (poverty, sea level rise, hunger) and combine them with technology to make something different,
+                    something cool, or something to improve the world.</p>
+                <p>It'll be sweet. We Promise.</p>
+
+            </div>
+        </div>
+
+        <!-- SECTION 03 -->
+        <div class="schedule faq-section schedule extra-padding global-base-gradient" id="faq-section">
+                <div class="content">
+                    <header>Schedule</header>
+                    <div class="faq days">
+                            <div class="day generalReveal" data-sr-id="30" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                                <h3 style="margin-bottom: 16px;">Friday</h3>
+                                <ul class="times">
+                                    <li><span class="time global-accent-color">6:00pm</span> Check-In</li>
+                                    <li><span class="time global-accent-color">7:00pm</span> Dinner</li>
+                                    <li><span class="time global-accent-color">8:30pm</span> Opening Ceremony</li>
+                                    <li><span class="time global-accent-color">9:30pm</span> Team Building</li>
+                                    <li><span class="time global-accent-color">10:00pm</span> Hacking Begins</li>
+                                </ul>
+                            </div>
+                            <div class="day generalReveal" data-sr-id="31" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                                <h3 style="margin-bottom: 16px;">Saturday</h3>
+                                <ul class="times">
+                                    <li><span class="time global-accent-color">7:30am</span> Breakfast</li>
+                                    <li><span class="time global-accent-color">12:30pm</span> Lunch</li>
+                                    <li><span class="time global-accent-color">7:00pm</span> Dinner</li>
+                                </ul>
+                            </div>
+                            <div class="day generalReveal" data-sr-id="32" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                                <h3 style="margin-bottom: 16px;">Sunday</h3>
+                                <ul class="times">
+                                    <li><span class="time global-accent-color">7:00am</span> Devpost Submissions Due</li>
+                                    <li><span class="time global-accent-color">8:00am</span> Breakfast</li>
+                                    <li><span class="time global-accent-color">9:00am</span> Hacking Ends</li><li>
+                                    </li><li><span class="time global-accent-color">10:00am</span> Expo Begins</li>
+                                    <li><span class="time global-accent-color">12:00pm</span> Closing Ceremony Begins</li>
+                                    <li><span class="time global-accent-color">1:00pm</span> End/Go Home</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        <!-- SECTION 03 -->
+        <div class="faq-section" id="faq-section">
+            <div class="content">
+                <header>FAQ</header>
+
+                <div class="faq">
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">When and where?</h4>
+                                <p class="card-text">MangoHacks ’18 will take place at Florida International University’s PG6 Tech Station from
+                                    February 2nd to 4th.
+                                    <br>
+                                    <a style="text-decoration:none; color:black;" href="https://www.google.com/maps/place/Parking+Garage+6+-+Tech+Station/@25.7629694,-80.3757678,16z/data=!4m8!1m2!2m1!1sfiu+tech+station!3m4!1s0x88d9bf2fab7bbc9b:0x1da1c4a739e4a791!8m2!3d25.7600891!4d-80.3743608"
+                                        target="_blank"> Get Directions</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">How much does it cost?</h4>
+                                <p class="card-text">ZERO! FREE! Nada. Zip. $0. Everything we provide will be free, so you only need to worry
+                                    about what you’ll achieve during the weekend.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">How long is it?</h4>
+                                <p class="card-text">People will arrive between 6pm and 8pm on Friday, February 2nd. Hacking will start at 10pm
+                                    on Friday and go until 8am on Sunday. Closing ceremony will end by 1pm on Sunday</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">Who can come?</h4>
+                                <p class="card-text">Anyone who is currently a college student or who graduated in the past year is welcome to
+                                    participate. If it has been a while since you were a student you can still participate
+                                    as a mentor for the attendees.
+                                    <br>
+                                    <a href="https://mangohacks.com/mentor.html" style="text-decoration:none; color:black;">Sign up to be a mentor</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">What do I need to bring?</h4>
+                                <p class="card-text">You’ll need an ID and the stuff you’ll need throughout the weekend. Laptop, chargers, phone,
+                                    the basics. You’ll probably also want to bring some basic hygiene products.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">How much experience do I need?</h4>
+                                <p class="card-text">Don’t be afraid if you don’t think you have enough experience, a team or an idea. A hackathon
+                                    is a great place for learning. We’ll have great mentors and tools to help you with development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 04 -->
+        <div class="whatlike">
+            <div class="content style">
+                <header> What is it like?</header>
+                <section class="video">
+                    <img src="img/placeholder.jpg" style="position:absolute;" alt="" width="854" height="480" id="video-overlay">
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/iuPGCi9VEco" frameborder="0" gesture="media" allow="encrypted-media"
+                        allowfullscreen id="mango-video">
+                    </iframe>
+                </section>
+            </div>
+        </div>
+
+        <!-- SECTION 05 -->
+        <div class="sponsors" id="sponsors">
+            <div class="content">
+                <header>MangoHacks is supported by...</header>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.express-scripts.com/" title="Express Scripts" target="_blank">
+                            <img src="img/sponsors/express.png" alt="Express Scripts" />
+                        </a>
+                    </div>
+  		    <div class="col">
+                        <a href="https://www.ge.com/" title="General Electric" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/1200px-General_Electric_logo.svg.png" alt="General Electric" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://careers.jpmorgan.com/careers/US/en/divisions/technology" title="JP Morgan Chase" target="_blank">
+                            <img src="https://gradsoflife.org/wp-content/uploads/2014/09/JPMorgan_Chase_logo_gray.png" alt="JP Morgan" />
+                        </a>
+                    </div>
+                </div>
+		<div class="row">
+		    <div class="col">
+                        <a href="https://www.carnival.com" title="Carnival" target="_blank">
+                            <img src="img/sponsors/carnival.png" alt="Carnival" />
+                        </a>
+                    </div>
+		</div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.citrix.com/" title="Citrix" target="_blank">
+                            <img src="img/sponsors/citrix.png" alt="1517 Fund" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://wyncode.co/coding-bootcamp-2/" title="Wyncode" target="_blank">
+                            <img src="img/sponsors/wyncode.png" alt="GitHub" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.ultimatesoftware.com/" title="Ultimate Software" target="_blank">
+                            <img src="img/sponsors/ultimate.png" alt="Ultimate Software" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.mlh.io/" title="Major League Hacking" target="_blank">
+                            <img src="img/sponsors/mlh.png" alt="Major League Hacking" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="http://www.1517fund.com/" title="1517" target="_blank">
+                            <img src="img/sponsors/1517.png" alt="1517 Fund" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="http://www.github.com/" title="GitHub" target="_blank">
+                            <img src="img/sponsors/github.png" alt="GitHub" />
+                        </a>
+                    </div>
+                </div>
+     		<div class="row">
+                    <div class="col">
+                        <a href="https://ultrapress.com" title="UltraPress" target="_blank">
+                            <img src="https://ultrapress-production.s3.amazonaws.com/static/images/public/ultrapress-custom-tshirts.png" alt="UltraPress" />
+                        </a>
+                    </div>
+                </div>
+		<div class="row">
+   		     <div class="col">
+                        <a href="https://acm.cis.fiu.edu" title="ACM" target="_blank">
+                            <img src="https://avatars2.githubusercontent.com/u/21185899?s=200&v=4" alt="ACM" class="acm" />
+                        </a>
+                    </div>
+		</div>
+                <div class="row">
+                    <div class="col">
+                        <a href="http://wicsatfiu.weebly.com" title="WICS" target="_blank">
+                            <img src="http://wicsatfiu.weebly.com/uploads/1/3/5/8/13586006/published/wics-gray-1.png?1503282220" alt="WICS"
+                            />
+                        </a>
+                    </div>
+           	    <div class="col">
+                        <a href="http://www.upe.cis.fiu.edu" title="FIU UPE" target="_blank">
+                            <img src="http://2016.mangohacks.com/img/logos/upe.png" alt="FIU UPE" />
+                        </a>
+                    </div>
+                </div>
+         	<div class="row">
+                    <div class="col">
+                        <a href="https://www.ieee.org/index.html" title="IEEE" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/IEEE_logo.svg/1280px-IEEE_logo.svg.png" alt="IEE"
+                            />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="http://www.shpe.fiu.edu" title="FIU SHPE" target="_blank">
+                            <img src="./img/misc/shpe.png" alt="FIU SHPE" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="http://www.cis.fiu.edu" title="FIU SCIS" target="_blank">
+                            <img src="img/sponsors/scis.png" alt="FIU SCIS" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/sponsors/honors.png" alt="FIU Honors College" />
+                        </a>
+                    </div>
+<!--
+   		    <div class="col">
+                        <a href="https://shpe.fiu.edu" title="FIU SHPE" target="_blank">
+                            <img src="img/sponsors/" alt="FIU SHPE" />
+                        </a>
+                    </div>
+-->
+                </div>
+                <p class="text-center text-muted">If you are interested in sponsoring MangoHacks, email us at team@mangohacks.com</p>
+            </div>
+        </div>
+        <!-- <div class="team-header">
+            <div class="content">
+                <header id="team-text">Meet our team !
+                    <br>
+                    <i class="fa fa-chevron-down" aria-hidden="true" id="view-team"></i>
+                </header>
+            </div>
+        </div>
+        <div class="team" hidden>
+            <div class="content">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/team/angelo2.jpg" alt="FIU Honors College" />
+                            <p class="team-name">Angelo Saraceno</p>
+                            <p class="team-role">Co-Director</p>
+                        </a>
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/team/cesia3.jpg" alt="FIU Honors College" />
+                            <p class="team-name">Cesia Bulnes</p>
+                            <p class="team-role">Co-Director</p>
+                        </a>
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/team/erica.jpg" alt="FIU Honors College" />
+                            <p class="team-name">Erica Barrios</p>
+                            <p class="team-role">Outreach Co-ordinator</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/team/ivette2.jpg" alt="FIU Honors College" />
+                            <p class="team-name">Ivette Duran</p>
+                            <p class="team-role">Outreach Co-ordinator</p>
+                        </a>
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/team/amir.jpg" alt="FIU Honors College" />
+                            <p class="team-name">Amir Jindani</p>
+                            <p class="team-role">Developer</p>
+                        </a>
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/team/sam.jpg" alt="FIU Honors College" />
+                            <p class="team-name">Samantha Magrans</p>
+                            <p class="team-role">Outreach Co-ordinator</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- SECTION 06 -->
+        <footer class="footer style">
+            <div class="footer-link">
+                <a href="https://www.facebook.com/mangohacks" target="_blank" class="fa fa-facebook fa-2x" aria-hidden="true"></a>
+                <a href="https://www.twitter.com/fiumangohacks/" target="_blank" class="fa fa-twitter fa-2x" aria-hidden="true"></a>
+                <a href="https://mangohacks2018.slack.com/" target="_blank" class="fa fa-slack fa-2x" aria-hidden="true"></a>
+            </div>
+            <span class="footer-text">Made with ❤️ by MangoHacks</span>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+        <script>
+
+            $(document).ready(function () {
+
+                $('#view-team').click(function () {
+                    $(this).fadeOut('fast');
+                    $(".team").removeAttr('hidden');
+                    $('#team-text').text('Our team !');
+                });
+
+                function setCookie(name, value, expires, path, domain, secure) {
+                    var curCookie = name + "=" + escape(value) +
+                        ((expires) ? "; expires=" + expires.toGMTString() : "") +
+                        ((path) ? "; path=" + path : "") +
+                        ((domain) ? "; domain=" + domain : "") +
+                        ((secure) ? "; secure" : "");
+                    document.cookie = curCookie;
+                }
+
+                function getCookie(name) {
+                    var dc = document.cookie;
+                    var prefix = name + "=";
+                    var begin = dc.indexOf("; " + prefix);
+                    if (begin == -1) {
+                        begin = dc.indexOf(prefix);
+                        if (begin != 0) return null;
+                    } else
+                        begin += 2;
+                    var end = document.cookie.indexOf(";", begin);
+                    if (end == -1)
+                        end = dc.length;
+                    return unescape(dc.substring(begin + prefix.length, end));
+                }
+
+                function deleteCookie(name, path, domain) {
+                    if (getCookie(name)) {
+                        document.cookie = name + "=" +
+                            ((path) ? "; path=" + path : "") +
+                            ((domain) ? "; domain=" + domain : "") +
+                            "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+                    }
+                }
+
+                function fixDate(date) {
+                    var base = new Date(0);
+                    var skew = base.getTime();
+                    if (skew > 0)
+                        date.setTime(date.getTime() - skew);
+                }
+
+                var visits = getCookie("counter");
+                if (!visits) {
+                    visits = 1;
+                } else {
+                    visits = parseInt(visits) + 1;
+                }
+                setCookie("counter", visits);
+
+                var liststyle = ['inspire', 'imagine', 'innovate'];
+                var style = liststyle[(visits + 3) % 3];
+
+                if (style == 'imagine') {
+                    $('.style').css('background', '-webkit-linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('.style').css('color', '#000');
+                    $('.footer-text').css('color', '#000');
+                    $('.fa-facebook').css('color', '#000');
+                    $('.fa-twitter').css('color', '#000');
+                    $('.fa-slack').css('color', '#000');
+                    $('.modal-btn').css('color', '#000');
+                    $('.modal-btn').css('border', '1px solid #000');
+                    $('.modal-btn').hover(function (e) {
+                        $(this).css('background', e.type === 'mouseenter' ? "#000" : 'transparent');
+                        $(this).css('color', e.type === 'mouseenter' ? '#fff' : '#000');
+                    });
+
+                    $('.title').text('Imagine.');
+                    $('.title').css('color', '#C8F020')
+
+                    $('.navbar').css('background', '-webkit-linear-gradient(233deg, #FE6BBE, #FAD865)');
+
+                    $('.mango').attr('src', "img/mangos/imagine-mango.svg")
+
+                    $('.bg-hero').attr('src', "img/misc/macbook.svg")
+                    $('.bg-hero').removeClass('bg-hero').addClass('macbook');
+
+                    $('#pill-5').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-6').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-7').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-8').css('border', '2px solid #FE6BBE');
+                    $('#pill-9').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-10').css('border', '2px solid #FE6BBE');
+                    $('#pill-11').css('border', '2px solid #FE6BBE');
+                    $('#pill-12').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-13').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-5-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-6-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-7-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-8-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-9-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-10-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-11-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-12-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-13-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-14-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-5-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-6-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-7-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-8-3').css('border', '2px solid #FE6BBE');
+                    $('#pill-9-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-10-3').css('border', '2px solid #FE6BBE');
+                    $('#pill-11-3').css('border', '2px solid #FE6BBE');
+                    $('#pill-12-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-13-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+
+                    $('.signupbutton').css('border', '2px solid #C8F020');
+                    $('.signupbutton').css('color', '#C8F020');
+
+                }
+
+                if (style == 'inspire') {
+                    $('.style').css('background', '-webkit-linear-gradient(233deg, #efff92, #d2fcf9)');
+
+                    $('.style').css('color', '#000');
+                    $('.footer-text').css('color', '#000');
+                    $('.fa-facebook').css('color', '#000');
+                    $('.fa-twitter').css('color', '#000');
+                    $('.fa-slack').css('color', '#000');
+                    $('.modal-btn').css('color', '#000');
+                    $('.modal-btn').css('border', '1px solid #000');
+                    $('.modal-btn').hover(function (e) {
+                        $(this).css('background', e.type === 'mouseenter' ? "#000" : 'transparent');
+                        $(this).css('color', e.type === 'mouseenter' ? '#fff' : '#000');
+                    });
+
+                    $(".title").text('Inspire.');
+                    $('.title').css('color', '#23F5E9');
+
+                    $('.navbar').css('background', '-webkit-linear-gradient(233deg, #efff92, #d2fcf9)');
+
+                    $('.mango').attr('src', "img/mangos/inspire-mango.svg");
+
+                    $('.bg-hero').attr('src', "img/misc/Submissions.svg");
+                    $('.bg-hero').removeClass('bg-hero').addClass('submissions');
+
+                    $('#pill-5').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-6').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-7').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-8').css('border', '2px solid #efff92');
+                    $('#pill-9').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-10').css('border', '2px solid #efff92');
+                    $('#pill-11').css('border', '2px solid #d2fcf9');
+                    $('#pill-12').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-13').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-5-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-6-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-7-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-8-2').css('border', '2px solid #efff92');
+                    $('#pill-9-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-10-2').css('border', '2px solid #efff92');
+                    $('#pill-11-2').css('border', '2px solid #d2fcf9');
+                    $('#pill-12-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-13-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-14-2').css('border', '2px solid #d2fcf9');
+                    $('#pill-5-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-6-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-7-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-8-3').css('border', '2px solid #efff92');
+                    $('#pill-9-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-10-3').css('border', '2px solid #efff92');
+                    $('#pill-11-3').css('border', '2px solid #d2fcf9');
+                    $('#pill-12-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-13-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+
+                    $('#signup-mango').attr('src', 'img/mangos/inspire-mango.svg');
+
+                    $('.signupbutton').css('border', '2px solid #23F5E9');
+                    $('.signupbutton').css('color', '#23F5E9');
+                }
+
+                if (style == 'innovate') {
+                    $('.style').css('background', '-webkit-linear-gradient(233deg, #6800ff, #f52376)');
+                    $('.style').css('color', '#fff');
+                    $('.modal-btn').css('color', '#fff');
+                    $('.modal-btn').css('border', '1px solid #fff');
+                    $('.modal-btn').hover(function (e) {
+                        $(this).css('background', e.type === 'mouseenter' ? "#fff" : 'transparent');
+                        $(this).css('color', e.type === 'mouseenter' ? '#000' : 'white');
+                    });
+
+                    $('.title').text('Innovate.');
+                    $('.title').css('color', '#4652F7');
+
+                    $('.navbar').css('background', '-webkit-linear-gradient(233deg, #6800ff, #f52376)');
+                    $('.nav-link').css('color', 'white');
+                    $('.navbar-brand').css('color', 'white');
+                    $('nav img').attr('src', 'img/mangos/white-mango.svg');
+
+                    $('.mango').attr('src', "img/mangos/innovate-mango.svg");
+
+                    $('.bg-hero').attr('src', "img/misc/motherboard.png");
+                    $('.bg-hero').removeClass('bg-hero').addClass('motherboard');
+
+                    $('#pill-5').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-6').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-7').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-8').css('border', '2px solid #6800ff');
+                    $('#pill-9').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-10').css('border', '2px solid #6800ff');
+                    $('#pill-11').css('border', '2px solid #f52376');
+                    $('#pill-12').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-13').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-5-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-6-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-7-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-8-2').css('border', '2px solid #6800ff');
+                    $('#pill-9-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-10-2').css('border', '2px solid #6800ff');
+                    $('#pill-11-2').css('border', '2px solid #f52376');
+                    $('#pill-12-2').css('linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-13-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-14-2').css('border', '2px solid #f52376');
+                    $('#pill-5-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-6-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-7-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-8-3').css('border', '2px solid #f52376');
+                    $('#pill-9-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-10-3').css('border', '2px solid #6800ff');
+                    $('#pill-11-3').css('border', '2px solid #f52376');
+                    $('#pill-12-3').css('linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-13-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+
+                    $('#signup-mango').attr('src', 'img/mangos/innovate-mango.svg');
+                    $('.signupbutton').css('border', '2px solid #4652F7');
+                    $('.signupbutton').css('color', '#fff');
+                    $('.signupbutton').css('background-color', '#4652F7');
+                }
+
+
+                $('#video-overlay').on('click', function () {
+                    $(this).fadeOut('slow')
+                    $('#mango-video').attr('src', 'https://www.youtube.com/embed/iuPGCi9VEco?autoplay=1');
+                });
+                $('#myModal').on('shown.bs.modal', function () {
+                    $('#myInput').trigger('focus')
+                })
+                $("#about-nav").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#hero").offset().top
+                    }, 1000);
+                });
+                $("#faq-nav").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#faq-section").offset().top
+                    }, 1000);
+                });
+                $("#sponsors-nav").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#sponsors").offset().top
+                    }, 1000);
+                });
+                $("div").hide().fadeIn(1000);
+                $(".navbar").hide();
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 800) {
+                            $('.navbar').fadeIn();
+                            $('#bg-hero').attr('hidden', true);
+                        } else {
+                            $('.navbar').fadeOut();
+                            $('#bg-hero').attr('hidden', false);
+
+                        }
+                    });
+                   // $(window).scroll(function () {
+                     //   if ($(this).scrollTop() > 1200) {
+                       //     $('#bg-hero').attr('hidden', true);
+                        //} else {
+                          //  $('#bg-hero').attr('hidden', false);
+                        //}
+                    //});
+                });
+
+            });
+        </script>
+    </div>
+</body>
+
+</html>

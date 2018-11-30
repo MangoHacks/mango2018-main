@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'FuturaLT-Bold';
+    src: url('../fonts/Futura-Font/FuturaLT-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'FuturaLT-Light';
+    src: url('../fonts/Futura-Font/FuturaLT-Light.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'FuturaLT';
+    src: url('../fonts/Futura-Font/FuturaLT.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'FuturaLT-Book';
+    src: url('../fonts/Futura-Font/FuturaLT-Book.ttf');
+    /* IE9 Compat Modes */
+}
+
+body {
+    font-family: FuturaLT
+}
+
+.confirm-bg {
+    background: linear-gradient(233deg, rgb(239, 255, 146), rgb(210, 252, 249));
+    height: 100vh;
+    width: 100vw;
+}
+
+.section{
+    text-align: center;
+    padding-top:20vh;
+}
+.section h1{
+    color: rgb(0, 0, 0);
+    font-family: FuturaLT-Bold;
+}
+
+.section h3{
+    color: rgb(0, 0, 0);
+    font-family: FuturaLT-Book
+}
+
+.section img {
+    height: 150px;
+    padding-bottom: 25px;
+}
+
+.section form{
+    margin: auto;
+    padding-top: 20px;
+}
+
+.form-input {
+    width: 400px !important;
+}
+
+.form-input::placeholder{
+    color:black;
+    font-family: FuturaLT-Bold;
+}
+
+/* NEW */
+
+#email-label {
+    color: rgb(0, 0, 0) !important;
+    font-family: FuturaLT-Bold;
+}
+
+.input-field.inline{
+    
+}

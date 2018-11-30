@@ -1,0 +1,81 @@
+.mentor *{
+    color:white !important;
+}
+.mentor button{
+    border: 1px solid white;
+    box-shadow: none !important;
+}
+.mentor #name-label, #github-label, #email-label, #tech-label{
+    color:white !important;
+    /* text-shadow: 1px 1px rgb(0, 0, 0);     */
+    border-color: rgb(255, 255, 255) !important;
+}
+.mentor #name, #github, #email, #tech{
+    border-color:white !important;
+    color:white !important;
+}
+.mentor input{
+    color:white !important;
+}
+.mentor .signup{
+    top: 100px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 50%;
+}
+.mentor .signup-bg-color{
+    background: linear-gradient(233deg, #FE6BBE, #FAD865) !important;
+    height: 100vh;   
+}
+.mentor img{
+    opacity: 0.1;
+}
+.mentor #signup-mango{
+    top:-150px;
+    right: -100px;
+    height: 1500px;
+}
+.mentor h1{
+    color:white;
+    /* text-shadow: 1px 1px rgb(0, 0, 0); */
+}
+.mentor h2{
+    color:white;
+    /* text-shadow: 1px 1px rgb(0, 0, 0); */
+    font-family: FuturaLT-Bold;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),input[type=email]:not(.browser-default):focus:not([readonly]),input[type=url]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid white !important;
+    box-shadow: none !important;
+    
+}
+@media only screen and (max-width:900px) {
+    .mentor .signup{
+        width: 90%;
+        margin-top: 0 !important;
+        top:10px !important;
+        padding: 50px 0;
+    }
+    #email-label,#name-label, #github-label, #tech-label{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+}
+/* IPHONE7 Queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .mentor .signup{
+        width: 90%;
+        margin-top: 0 !important;
+        top:10px !important;
+        padding: 50px 0;
+    }
+    #email-label,#name-label, #github-label, #tech-label{
+        font-size: 10px;
+        margin-left: 55px;
+    }
+    .mentor #name, #github, #email, #tech{
+       width: 18em !important;
+    }
+}

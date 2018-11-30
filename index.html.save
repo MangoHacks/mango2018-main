@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<!--
+                                                     ```                                            
+                                           `.-:/+oossssssso+/:-.`                                   
+                                       `.:+syyyyyyyyyyyyyyyyyyyys+:.                                
+                                     ./oyyyyyyyyyyyyssssyyyyyyyyyyyyo/.                             
+                                  `-oyyyyyyyyo+/:-..````...-/+oyyyyyyys+.                           
+                                `:syyyyyys+:.`                `.:+syyyyyy+......``                  
+                              `:syyyyyyo:`                        ./syyyyyyyyyyysso/.`              
+                             -oyyyyyyo-                             `/yyyyyyyyyyyyyyyo/`            
+                           `+yyyyyyo-                                 .syyyyyysssyyyyyys:`          
+                          :syyyyys-                                    `oyyyyy+``-+yyyyyyo`         
+                        .oyyyyyy/`                                      `oyyyyy/   .oyyyyys`        
+                       :yyyyyyo.                                         `syyyyy.    /yyyyys`       
+                     .oyyyyyy:                                            :yyyyyo     /yyyyy/       
+                    :yyyyyyo.                                              syyyyy.     syyyyy`      
+                  .oyyyyyy:                                                :yyyyy:     :yyyyy/      
+                `/yyyyyyo`                                                 -yyyyy+     `yyyyyo      
+               -syyyyyy:                                                   -yyyyy/      yyyyys      
+             .oyyyyyy+`                                                    /yyyyy:      yyyyys      
+           -oyyyyyyo.                                            -+o+.    `yyyyyy`     `yyyyyo      
+        `/syyyyyys:                                              syyyo    +yyyyy/      -yyyyy/      
+       -syyyyyys:                                                ./+/.   /yyyyys`      oyyyyy.      
+      .yyyyyy+-                                             -+oo-       +yyyyys.      .yyyyyo       
+      /yyyyy:                                            `:syyyyy.    .oyyyyys.       oyyyyy-       
+      +yyyyy`                                        `.:oyyyyyys/   `/yyyyyyy:       :yyyyyo        
+      /yyyyy:                                   `.-/osyyyyyyys/`  `/syyyyyyyyy+`    .yyyyyy.        
+      `yyyyyy-                       ```..--:/+ssyyyyyyyyys/.`  ./syyyyyysyyyyys/` `syyyyy:         
+       -yyyyyy/`            ./ooooosssssyyyyyyyyyyyyyys+:.`  `:oyyyyyyy+.`/yyyyyys/oyyyyy/          
+        -syyyyys/.          syyyyyyyyyyyyyyyyyysso+:-``   .:+syyyyyys/.    .+yyyyyyyyyyy+           
+         `/yyyyyys+:.       :ossssssssooo+//:-.``    `.-/osyyyyyyyo:`        ./syyyyyyy+`           
+           .+syyyyyyso/-.`   ``````````      ``..-:/osyyyyyyyyyo/.             `-+syyy/             
+             `:oyyyyyyyyyso+/:--..---:://++oosssyyyyyyyyyyyso:.                   `.--              
+                .:osyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyss+:.`                                        
+                   `.:+osyyyyyyyyyyyyyyyyyyyyyssso+/-.`                                             
+                        `.-://++o++++///::--..``
+
+
+                                                                     MangoHacks2018<3
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/mangos/white-mango.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pill.css">
+    <title>MangoHacks</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- MLH Banner -->
+        <a href="https://mlh.io" target="_blank">
+            <img id="#top" src="https://res.cloudinary.com/devpost/image/fetch/s--3au5xqBy--/c_limit,f_auto,fl_lossy,q_auto,w_900/https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg"
+                class="mlh-banner" alt="">
+        </a>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-toggleable-xl navbar-light bg-faded">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/mangos/black-mango.svg" alt="">
+                </a>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" id="about-nav">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="faq-nav">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sponsors-nav">Sponsors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- PILLS -->
+        <div class="pill-move section-1-pills">
+            <div class="pill" id="pill-5"></div>
+            <div class="pill" id="pill-6"></div>
+            <div class="pill" id="pill-7"></div>
+            <div class="pill" id="pill-8"></div>
+            <div class="pill" id="pill-9"></div>
+            <div class="pill" id="pill-10"></div>
+            <div class="pill" id="pill-11"></div>
+            <div class="pill" id="pill-12"></div>
+            <div class="pill" id="pill-13"></div>
+        </div>
+        <div class="pill-move section-2-pills">
+            <div class="pill" id="pill-5-2"></div>
+            <div class="pill" id="pill-6-2"></div>
+            <div class="pill" id="pill-7-2"></div>
+            <div class="pill" id="pill-8-2"></div>
+            <div class="pill" id="pill-9-2"></div>
+            <div class="pill" id="pill-10-2"></div>
+            <div class="pill" id="pill-11-2"></div>
+            <div class="pill" id="pill-12-2"></div>
+            <div class="pill" id="pill-13-2"></div>
+            <div class="pill" id="pill-14-2"></div>
+        </div>
+        <div class="pill-move section-3-pills">
+            <div class="pill" id="pill-5-3"></div>
+            <div class="pill" id="pill-6-3"></div>
+            <div class="pill" id="pill-7-3"></div>
+            <div class="pill" id="pill-8-3"></div>
+            <div class="pill" id="pill-9-3"></div>
+            <div class="pill" id="pill-10-3"></div>
+            <div class="pill" id="pill-11-3"></div>
+            <div class="pill" id="pill-12-3"></div>
+            <div class="pill" id="pill-13-3"></div>
+        </div>
+
+
+        <!-- SECTION 00 -->
+        <div class="page" id="top">
+            <div class="hero">
+                <div class="top-hero">
+                    <img class="mango" src="" id="mango" alt="" />
+                    <h1 class="title"></h1>
+                    <!-- <div align="center">
+                        <button type="button" id="button" class="signupbutton" data-toggle="modal" data-target="#exampleModal" style="z-index:1111">
+                            Sign Up !
+                        </button>
+                    </div> -->
+                    <div align="center">
+                        <a href="signup.html">
+                            <button class="signupbutton">Sign Up!</button>
+                        </a>
+                    </div>
+                    <img class="bg-hero" src="" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="signup-bg-color">
+                            <img src="img/mangos/imagine-mango.svg" id="signup-mango" alt="" />
+                            <div class="signup">
+                                <h1>MANGOHACKS</h1>
+                                <h2>Register for Florida's sweetest Hackathon</h2>
+                                <form action="http://localhost:8050/form/" id="form" method="post" encType="multipart/form-data">
+                                    <div class="form-group">
+                                        <div class="input-field inline col s12" type="text" tabindex="-1">
+                                            <label id="name-label" for="name">Name</label>
+                                            <input type="text" name="name" id="name" class="name" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-field inline col s12" type="text" tabindex="-1">
+                                            <label id="email-label" for="email">Email</label>
+                                            <input type="email" id="email" name="email" class="email" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-field inline col s12" type="text" tabindex="-1">
+                                            <label id="school-label" for="school">School</label>
+                                            <input type="text" list="schools" name="school" class="school" required id="school" />
+                                        </div>
+                                    </div>
+                                    <datalist id="schools">
+                                        <option value="Florida International University" />
+                                        <option value="University of Florida" />
+                                        <option value="University of Central Florida" />
+                                        <option value="University of South Florida" />
+                                        <option value="Florida State University" />
+                                        <option value="University of Miami" />
+                                        <option value="Florida Atlantic University" />
+                                        <option value="University of North Florida" />
+                                        <option value="Miami-Dade College" />
+                                        <option value="Florida Gulf Coast University" />
+                                        <option value="Florida A&M University" />
+                                        <option value="Broward College" />
+                                        <option value="Valencia College" />
+                                        <option value="Nova Southeastern University" />
+                                        <option value="University of Tampa" />
+                                        <option value="Barry University" />
+                                        <option value="Florida Polytechnic University" />
+                                        <option value="Stetson University" />
+                                        <option value="University of West Florida" />
+                                        <option value="Santa Fe College" />
+                                        <option value="Jacksonville University" />
+                                        <option value="St. Thomas University" />
+                                        <option value="Florida National University" />
+                                        <option value="Georgia Institute of Technology" />
+                                        <option value="University of Massachusetts Amherst" />
+                                        <option value="University of Washington" />
+                                    </datalist>
+                                    <div class="form-group">
+                                        <div class="input-field inline col s12" type="text" tabindex="-1">
+                                            <label id="major-label" for="major">Major</label>
+                                            <input type="text" list="majors" name="major" class="major" required id="major" />
+                                        </div>
+                                    </div>
+                                    <datalist id="majors">
+                                        <option value="Computer Science" />
+                                        <option value="Computer Engineering" />
+                                        <option value="Information Technology" />
+                                        <option value="Business" />
+                                        <option value="Electrical Engineering" />
+                                        <option value="Art" />
+                                        <option value="Biology" />
+                                        <option value="Architecture" />
+                                        <option value="Marketing" />
+                                        <option value="Chemistry" />
+                                        <option value="Liberal Arts" />
+                                    </datalist>
+                                    <div class="form-group">
+                                        <div class="input-field inline col s12" type="text" tabindex="-1">
+                                            <label id="github-label" for="github">GitHub Profile Link</label>
+                                            <input type="url" name="github" class="github" required id="github" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-field inline col s12" type="text" tabindex="-1">
+                                            <label id="diet-label" for="diet">Dietary Restrictions</label>
+                                            <input type="text" name="diet" class="diet" required id="diet" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gender">Gender</label>
+                                        <select class="form-control" id="gender">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="year">School Year</label>
+                                        <select class="form-control" id="year">
+                                            <option value="Freshman">Freshman</option>
+                                            <option value="Sophmore">Sophmore</option>
+                                            <option value="Junior">Junior</option>
+                                            <option value="Senior">Senior</option>
+                                            <option value="New Grad">New Grad</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="size">Shirt Size</label>
+                                        <select class="form-control" id="size">
+                                            <option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large">Large</option>
+                                            <option value="X-Large">X-Large</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="resume">Resume</label>
+                                        <br>
+                                        <input type="file" name="resume" class="" id="resume" />
+                                    </div>
+                                    <div class="form-group" style="font-size:13px;" class="mlh-cc">
+                                        <p>By registering you agree to the
+                                            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style="text-decoration:none; color:black">
+                                                <u>MLH Code of Conduct </u>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <button class="btn signupbutton-2 btn-block" style="width:100%;" type="submit">Register</button>
+                                </form>
+                            </div>
+        <!-- SECTION 01 -->
+        <div class="hero">
+            <div class="content" id="hero">
+                <h2>2018</h2>
+                <header>MangoHacks</header>
+                <p class="slogan">"A celebration with Hackathon elements"</p>
+                <div class="info-2">
+                    <p>MangoHacks is a place for discovery.</p>
+                    <p>Its a 36 hour hackathon that encourages learning, collaboration, growth, innovation, and fun.
+                        <br></br>
+                        We will welcome 350+ students from Florida and accross the country
+                        <br></br>
+                        with amazing mentors, and wonderful sponsors to create amazing things.</p>
+                    <p class="hero-slogan">
+                        <i>MangoHacks is organized by students for students.</i>
+                    </p>
+                    <a href="signup.html">
+                        <button class="signupbutton-2 btn">Sign Up!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 02 -->
+        <div class="whatis">
+            <div class="content style">
+                <header> What is
+                    <br></br>a Hackathon?</header>
+                <p>MangoHacks is a chance to meet new people, learn something, make something, dream along, and have fun.</p>
+                <p>Everyone is welcomed - from the most experienced hackers, designers, and builders to the thinkers and the
+                    curious who have never heard of a hackathon. Regardless of your experience, there is something for you
+                    at MangoHacks.</p>
+                <p> We’d love for you to come learn something new, take the things you love (sports, art, traveling, dogs!) or
+                    care about (poverty, sea level rise, hunger) and combine them with techonology to make something different,
+                    something cool, or something to improve the world.</p>
+                <p>It'll be sweet. We Promise.</p>
+
+            </div>
+        </div>
+
+        <!-- SECTION 03 -->
+        <div class="faq-section" id="faq-section">
+            <div class="content">
+                <header>FAQ</header>
+
+                <div class="faq">
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">When and where?</h4>
+                                <p class="card-text">MangoHacks ’18 will take place at Florida International University’s PG6 Tech Station from
+                                    February 2nd to 4th. Get Directions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">How much does it cost?</h4>
+                                <p class="card-text">ZERO! FREE! Nada. Zip. $0. Everything we provide will be free, so you only need to worry
+                                    about what you’ll achieve during the weekend.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">How long is it?</h4>
+                                <p class="card-text">People will arrive between 6pm and 8pm on Friday, February 2nd. Hacking will start at 10pm
+                                    on Friday and go until 8am on Sunday. Closing ceremony will end by 1pm on Sunday</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">Who can come?</h4>
+                                <p class="card-text">Anyone who is currently a college student or who graduated in the past year is welcome to
+                                    participate. If it has been a while since you were a student you can still participate
+                                    as a mentor for the attendees. Sign up to be a mentor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">What do I need to bring?</h4>
+                                <p class="card-text">You’ll need an ID and the stuff you’ll need throughout the weekend. Laptop, chargers, phone,
+                                    the basics. You’ll probably also want to bring some basic hygiene products.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sm">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-block">
+                                <h4 class="card-title">How much experience do I need?</h4>
+                                <p class="card-text">Don’t be afraid if you don’t think you have enough experience, a team or an idea. A hackathon
+                                    is a great place for learning. We’ll have great mentors and tools to help you with development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 04 -->
+        <div class="whatlike">
+            <div class="content style">
+                <header> What is it like?</header>
+                <section class="video">
+                    <img src="img/placeholder.jpg" style="position:absolute;" alt="" width="854" height="480" id="video-overlay">
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/iuPGCi9VEco" frameborder="0" gesture="media" allow="encrypted-media"
+                        allowfullscreen id="mango-video">
+                    </iframe>
+                </section>
+            </div>
+        </div>
+
+        <!-- SECTION 05 -->
+        <div class="sponsors" id="sponsors">
+            <div class="content">
+                <header>MangoHacks is supported by...</header>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.express-scripts.com/" title="Express Scripts" target="_blank">
+                            <img src="img/sponsors/express.png" alt="Major League Hacking" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.jpmorgan.com/country/US/en/jpmorgan" title="JP Morgan Chase" target="_blank">
+                            <img src="img/sponsors/jpmorgan.png" alt="JP Morgan" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.citrix.com/" title="Citrix" target="_blank">
+                            <img src="img/sponsors/citrix.png" alt="1517 Fund" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://wyncode.co/coding-bootcamp-2/" title="Wyncode" target="_blank">
+                            <img src="img/sponsors/wyncode.png" alt="GitHub" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.ultimatesoftware.com/" title="Ultimate Software" target="_blank">
+                            <img src="img/sponsors/ultimate.png" alt="Ultimate Software" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.mlh.io/" title="Major League Hacking" target="_blank">
+                            <img src="img/sponsors/mlh.png" alt="Major League Hacking" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="http://www.1517fund.com/" title="1517" target="_blank">
+                            <img src="img/sponsors/1517.png" alt="1517 Fund" />
+                        </a>
+                    </div>
+                    <!-- <div class="col">
+                        <a href="http://www.github.com/" title="GitHub" target="_blank">
+                            <img src="img/sponsors/github.png" alt="GitHub" />
+                        </a>
+                    </div> -->
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="http://www.cis.fiu.edu" title="FIU SCIS" target="_blank">
+                            <img src="img/sponsors/scis.png" alt="FIU SCIS" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://honors.fiu.edu/" title="FIU Honors College" target="_blank">
+                            <img src="img/sponsors/honors.png" alt="FIU Honors College" />
+                        </a>
+                    </div>
+                </div>
+                <p class="text-center text-muted">If you are interested in sponsoring MangoHacks, email us at team@mangohacks.com</p>
+            </div>
+        </div>
+
+        <!-- SECTION 06 -->
+        <footer class="footer style">
+            <div class="footer-link">
+                <a href="https://www.facebook.com/mangohacks" target="_blank" class="fa fa-facebook fa-2x" aria-hidden="true"></a>
+                <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter fa-2x" aria-hidden="true"></a>
+                <a href="https://www.slack.com" target="_blank" class="fa fa-slack fa-2x" aria-hidden="true"></a>
+            </div>
+            <span class="footer-text">Made with ❤️ by MangoHacks</span>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+        <script>
+
+            $(document).ready(function () {
+                // Cookies Functions
+                function setCookie(name, value, expires, path, domain, secure) {
+                    var curCookie = name + "=" + escape(value) +
+                        ((expires) ? "; expires=" + expires.toGMTString() : "") +
+                        ((path) ? "; path=" + path : "") +
+                        ((domain) ? "; domain=" + domain : "") +
+                        ((secure) ? "; secure" : "");
+                    document.cookie = curCookie;
+                }
+
+                function getCookie(name) {
+                    var dc = document.cookie;
+                    var prefix = name + "=";
+                    var begin = dc.indexOf("; " + prefix);
+                    if (begin == -1) {
+                        begin = dc.indexOf(prefix);
+                        if (begin != 0) return null;
+                    } else
+                        begin += 2;
+                    var end = document.cookie.indexOf(";", begin);
+                    if (end == -1)
+                        end = dc.length;
+                    return unescape(dc.substring(begin + prefix.length, end));
+                }
+
+                function deleteCookie(name, path, domain) {
+                    if (getCookie(name)) {
+                        document.cookie = name + "=" +
+                            ((path) ? "; path=" + path : "") +
+                            ((domain) ? "; domain=" + domain : "") +
+                            "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+                    }
+                }
+
+                function fixDate(date) {
+                    var base = new Date(0);
+                    var skew = base.getTime();
+                    if (skew > 0)
+                        date.setTime(date.getTime() - skew);
+                }
+
+                // Visit Counter
+                var visits = getCookie("counter");
+                if (!visits) {
+                    visits = 1;
+                } else {
+                    visits = parseInt(visits) + 1;
+                }
+                setCookie("counter", visits);
+
+                var liststyle = ['inspire', 'imagine', 'innovate'];
+                var style = liststyle[(visits + 3) % 3];
+
+                if (style == 'imagine') {
+                    // BG Styles
+                    //$('.style').css('background', 'linear-gradient(to top right, #FE6BBE, #FAD865');
+                    $('.style').css('background', '-webkit-linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('.style').css('color', '#000');
+                    $('.footer-text').css('color', '#000');
+                    $('.fa-facebook').css('color', '#000');
+                    $('.fa-twitter').css('color', '#000');
+                    $('.fa-slack').css('color', '#000');
+                    $('.modal-btn').css('color', '#000');
+                    $('.modal-btn').css('border', '1px solid #000');
+                    $('.modal-btn').hover(function (e) {
+                        $(this).css('background', e.type === 'mouseenter' ? "#000" : 'transparent');
+                        $(this).css('color', e.type === 'mouseenter' ? '#fff' : '#000');
+                    });
+
+                    // Text Style
+                    $('.title').text('Imagine.');
+                    $('.title').css('color', '#C8F020')
+
+                    // Nav
+                    $('.navbar').css('background', '-webkit-linear-gradient(233deg, #FE6BBE, #FAD865)');
+
+                    // Logo Style
+                    $('.mango').attr('src', "img/mangos/imagine-mango.svg")
+
+                    //  BG Picture
+                    $('.bg-hero').attr('src', "img/misc/macbook.svg")
+                    $('.bg-hero').removeClass('bg-hero').addClass('macbook');
+
+                    // Pills
+                    $('#pill-5').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-6').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-7').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-8').css('border', '2px solid #FE6BBE');
+                    $('#pill-9').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-10').css('border', '2px solid #FE6BBE');
+                    $('#pill-11').css('border', '2px solid #FE6BBE');
+                    $('#pill-12').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-13').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-5-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-6-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-7-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-8-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-9-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-10-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-11-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-12-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-13-2').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-14-2').css('border', '2px solid #FE6BBE');
+                    $('#pill-5-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-6-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-7-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-8-3').css('border', '2px solid #FE6BBE');
+                    $('#pill-9-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-10-3').css('border', '2px solid #FE6BBE');
+                    $('#pill-11-3').css('border', '2px solid #FE6BBE');
+                    $('#pill-12-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+                    $('#pill-13-3').css('background', 'linear-gradient(233deg, #FE6BBE, #FAD865)');
+
+
+
+                    //Sign Up button
+                    $('.signupbutton').css('border', '2px solid #C8F020');
+                    $('.signupbutton').css('color', '#C8F020');
+
+                }
+
+                if (style == 'inspire') {
+                    //$('.style').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9');
+                    $('.style').css('background', '-webkit-linear-gradient(233deg, #efff92, #d2fcf9)');
+
+                    $('.style').css('color', '#000');
+                    $('.footer-text').css('color', '#000');
+                    $('.fa-facebook').css('color', '#000');
+                    $('.fa-twitter').css('color', '#000');
+                    $('.fa-slack').css('color', '#000');
+                    $('.modal-btn').css('color', '#000');
+                    $('.modal-btn').css('border', '1px solid #000');
+                    $('.modal-btn').hover(function (e) {
+                        $(this).css('background', e.type === 'mouseenter' ? "#000" : 'transparent');
+                        $(this).css('color', e.type === 'mouseenter' ? '#fff' : '#000');
+                    });
+
+
+                    // Text Style
+                    $(".title").text('Inspire.');
+                    $('.title').css('color', '#23F5E9');
+
+                    // Nav
+                    $('.navbar').css('background', '-webkit-linear-gradient(233deg, #efff92, #d2fcf9)');
+
+                    // Logo Style
+                    $('.mango').attr('src', "img/mangos/inspire-mango.svg");
+
+                    //  BG Picture
+                    $('.bg-hero').attr('src', "img/misc/Submissions.svg");
+                    $('.bg-hero').removeClass('bg-hero').addClass('submissions');
+
+                    // Pills
+                    $('#pill-5').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-6').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-7').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-8').css('border', '2px solid #efff92');
+                    $('#pill-9').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-10').css('border', '2px solid #efff92');
+                    $('#pill-11').css('border', '2px solid #d2fcf9');
+                    $('#pill-12').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-13').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-5-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-6-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-7-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-8-2').css('border', '2px solid #efff92');
+                    $('#pill-9-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-10-2').css('border', '2px solid #efff92');
+                    $('#pill-11-2').css('border', '2px solid #d2fcf9');
+                    $('#pill-12-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-13-2').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-14-2').css('border', '2px solid #d2fcf9');
+                    $('#pill-5-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-6-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-7-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-8-3').css('border', '2px solid #efff92');
+                    $('#pill-9-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-10-3').css('border', '2px solid #efff92');
+                    $('#pill-11-3').css('border', '2px solid #d2fcf9');
+                    $('#pill-12-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+                    $('#pill-13-3').css('background', 'linear-gradient(233deg, #efff92, #d2fcf9)');
+
+                    $('#signup-mango').attr('src', 'img/mangos/inspire-mango.svg');
+
+                    //Sign Up button
+                    $('.signupbutton').css('border', '2px solid #23F5E9');
+                    $('.signupbutton').css('color', '#23F5E9');
+                }
+
+                if (style == 'innovate') {
+                    //$('.style').css('background', 'linear-gradient(233deg, #6800ff, #f52376');
+                    $('.style').css('background', '-webkit-linear-gradient(233deg, #6800ff, #f52376)');
+                    $('.style').css('color', '#fff');
+                    $('.modal-btn').css('color', '#fff');
+                    $('.modal-btn').css('border', '1px solid #fff');
+                    $('.modal-btn').hover(function (e) {
+                        $(this).css('background', e.type === 'mouseenter' ? "#fff" : 'transparent');
+                        $(this).css('color', e.type === 'mouseenter' ? '#000' : 'white');
+                    });
+
+
+                    // Text Style
+                    $('.title').text('Innovate.');
+                    $('.title').css('color', '#4652F7');
+
+                    //Nav
+                    $('.navbar').css('background', '-webkit-linear-gradient(233deg, #6800ff, #f52376)');
+                    $('.nav-link').css('color', 'white');
+                    $('.navbar-brand').css('color', 'white');
+                    $('nav img').attr('src', 'img/mangos/white-mango.svg');
+
+                    // Logo Style
+                    $('.mango').attr('src', "img/mangos/innovate-mango.svg");
+
+                    //  BG Picture
+                    $('.bg-hero').attr('src', "img/misc/motherboard.png");
+                    $('.bg-hero').removeClass('bg-hero').addClass('motherboard');
+
+                    // Pills
+                    $('#pill-5').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-6').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-7').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-8').css('border', '2px solid #6800ff');
+                    $('#pill-9').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-10').css('border', '2px solid #6800ff');
+                    $('#pill-11').css('border', '2px solid #f52376');
+                    $('#pill-12').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-13').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-5-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-6-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-7-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-8-2').css('border', '2px solid #6800ff');
+                    $('#pill-9-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-10-2').css('border', '2px solid #6800ff');
+                    $('#pill-11-2').css('border', '2px solid #f52376');
+                    $('#pill-12-2').css('linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-13-2').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-14-2').css('border', '2px solid #f52376');
+                    $('#pill-5-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-6-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-7-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-8-3').css('border', '2px solid #f52376');
+                    $('#pill-9-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-10-3').css('border', '2px solid #6800ff');
+                    $('#pill-11-3').css('border', '2px solid #f52376');
+                    $('#pill-12-3').css('linear-gradient(233deg, #6800ff, #f52376)');
+                    $('#pill-13-3').css('background', 'linear-gradient(233deg, #6800ff, #f52376)');
+
+                    //Modal Mango
+                    $('#signup-mango').attr('src', 'img/mangos/innovate-mango.svg');
+                    //Sign Up button
+                    $('.signupbutton').css('border', '2px solid #4652F7');
+                    $('.signupbutton').css('color', '#fff');
+                    $('.signupbutton').css('background-color', '#4652F7');
+                }
+
+
+                $('#video-overlay').on('click', function () {
+                    $(this).fadeOut('slow')
+                    $('#mango-video').attr('src', 'https://www.youtube.com/embed/iuPGCi9VEco?autoplay=1');
+                });
+                // Modal
+                $('#myModal').on('shown.bs.modal', function () {
+                    $('#myInput').trigger('focus')
+                })
+                //Scroll
+                $("#about-nav").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#hero").offset().top
+                    }, 1000);
+                });
+                $("#faq-nav").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#faq-section").offset().top
+                    }, 1000);
+                });
+                $("#sponsors-nav").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#sponsors").offset().top
+                    }, 1000);
+                });
+
+                $("div").hide().fadeIn(1000);
+
+                //NAVBAR
+                $(".navbar").hide();
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 800) {
+                            $('.navbar').fadeIn();
+                        } else {
+                            $('.navbar').fadeOut();
+                        }
+                    });
+                });
+                
+                /*var $emailinput = $('#email');
+                var $emaillabel = $('#email-label');
+                var $nameinput = $('#name');
+                var $namelabel = $('#name-label');
+                var $schoolinput = $('#school');
+                var $schoollabel = $('#school-label');
+                var $majorinput = $('#major');
+                var $majorlabel = $('#major-label');
+                var $dietinput = $('#diet');
+                var $dietlabel = $('#diet-label');
+                var $githubinput = $('#github');
+                var $githublabel = $('#github-label');
+
+                $emailinput.on('focus', function (event) {
+                    $emaillabel.addClass('active');
+                });
+                $emailinput.on('blur', function (event) {
+                    if ($emailinput.val().trim() == "") {
+                        $emaillabel.removeClass('active');
+                    }
+                });
+                $nameinput.on('focus', function (event) {
+                    $namelabel.addClass('active');
+                });
+                $nameinput.on('blur', function (event) {
+                    if ($nameinput.val().trim() == "") {
+                        $namelabel.removeClass('active');
+                    }
+                });
+
+                $schoolinput.on('focus', function (event) {
+                    $schoollabel.addClass('active');
+                });
+                $schoolinput.on('blur', function (event) {
+                    if ($schoolinput.val().trim() == "") {
+                        $schoollabel.removeClass('active');
+                    }
+                });
+
+                $majorinput.on('focus', function (event) {
+                    $majorlabel.addClass('active');
+                });
+                $majorinput.on('blur', function (event) {
+                    if ($majorinput.val().trim() == "") {
+                        $majorlabel.removeClass('active');
+                    }
+                });
+
+                $dietinput.on('focus', function (event) {
+                    $dietlabel.addClass('active');
+                });
+                $dietinput.on('blur', function (event) {
+                    if ($dietinput.val().trim() == "") {
+                        $dietlabel.removeClass('active');
+                    }
+                });
+
+                $githubinput.on('focus', function (event) {
+                    $githublabel.addClass('active');
+                });
+                $githubinput.on('blur', function (event) {
+                    if ($githubinput.val().trim() == "") {
+                        $githublabel.removeClass('active');
+                    }
+                });
+                */
+            });
+        </script>
+        <!-- <script>
+            $(document).ready(function () {
+                $('#form').submit(function (event) {
+                    event.preventDefault();
+
+                    var $form = $(this),
+                        name = $form.find("input[name='name']").val(),
+                        email = $form.find("input[name='email']").val(),
+                        school = $form.find("input[name='school']").val(),
+                        major = $form.find("input[name='major']").val(),
+                        github = $form.find("input[name='github']").val(),
+                        diet = $form.find("input[name='diet']").val(),
+                        // resume = ("#resume")next().val(),
+                        gender = $form.find("#gender").val(),
+                        year = $form.find("#year").val(),
+                        size = $form.find("#size").val(),
+                        url = $form.attr("action");
+                    var posting = $.post(url, { name: name, email: email, school: school, major: major, github: github, diet: diet, gender: gender, resume: resume, major: major, size: size });
+                });
+            })
+        </script> -->
+    </div>
+</body>
+
+</html>

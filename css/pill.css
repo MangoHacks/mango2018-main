@@ -1,0 +1,901 @@
+.pill {
+    height: 300px;
+    width: 140px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 100px;
+    -webkit-transform: rotate(15deg);
+}
+
+.pill-move {
+    animation-name: pill;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    position: absolute;
+    z-index: 0;
+}
+
+@keyframes pill {
+    0% {
+        transform: translatex(0px) translatey(2080px);
+    }
+    100% {
+        transform: translatex(0px) translatey(0px);
+    }
+}
+
+
+/* Section 1 PILLS*/
+
+.section-1-pills {
+    top: -2000px;
+}
+
+#pill-5 {
+    height: 650px;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1800px;
+    opacity: 1;
+    top: 400px;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: transparent;
+}
+
+#pill-6 {
+    height: 650px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1500px;
+    background: transparent;
+    border: transparent;
+}
+
+#pill-7 {
+    background: linear-gradient(233deg, #F5A623, #FBD249);
+    border: none;
+}
+
+#pill-8 {
+    left: 300px;
+    position: inherit;
+    height: 500px;
+    width: 200px;
+    border: 5px solid #FBD249;
+}
+
+#pill-9 {
+    height: 650px;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -2500px;
+    opacity: 1;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: transparent;
+    opacity: 0.2;
+}
+
+#pill-10 {
+    height: 350px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 150px;
+    border-radius: 150px;
+    position: inherit;
+    right: -2000px;
+    border: 1px solid;
+}
+
+#pill-11 {
+    height: 450px;
+    width: 200px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1200px;
+    opacity: 0.2;
+    top: 700px;
+    background: transparent;
+    border: 2px solid;
+}
+
+#pill-12 {
+    left: 600px;
+    position: inherit;
+    height: 300px;
+    width: 120px;
+    top: 650px;
+    opacity: 0.2;
+    border: none;
+}
+
+#pill-13 {
+    left: 750px;
+    position: inherit;
+    height: 500px;
+    width: 200px;
+    top: -300px;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: none;
+}
+
+
+/* Section 2 PILLS */
+
+.section-2-pills {
+    top: -250px;
+}
+
+#pill-5-2 {
+    height: 650px;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1800px;
+    opacity: 1;
+    top: 400px;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: transparent;
+}
+
+#pill-6-2 {
+    height: 650px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1500px;
+    background: transparent;
+    border: transparent;
+}
+
+#pill-7-2 {
+    background: linear-gradient(233deg, #F5A623, #FBD249);
+    border: none;
+}
+
+#pill-8-2 {
+    left: 300px;
+    position: inherit;
+    height: 500px;
+    width: 200px;
+    border: 5px solid #FBD249;
+}
+
+#pill-9-2 {
+    height: 650px;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -2500px;
+    opacity: 1;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: transparent;
+    opacity: 0.2;
+}
+
+#pill-10-2 {
+    height: 350px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 150px;
+    border-radius: 150px;
+    position: inherit;
+    right: -2000px;
+    border: 1px solid;
+}
+
+#pill-11-2 {
+    height: 450px;
+    width: 200px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1200px;
+    opacity: 0.2;
+    top: 700px;
+    background: transparent;
+    border: 2px solid;
+}
+
+#pill-12-2 {
+    left: 600px;
+    position: inherit;
+    height: 300px;
+    width: 120px;
+    top: 650px;
+    opacity: 0.2;
+    border: none;
+}
+
+#pill-13-2 {
+    left: 750px;
+    position: inherit;
+    height: 500px;
+    width: 200px;
+    top: -100px;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: none;
+}
+
+#pill-14-2 {
+    height: 350px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 150px;
+    border-radius: 150px;
+    position: inherit;
+    border: 1px solid;
+    top: -700px;
+}
+
+
+/* Section 2 PILLS */
+
+.section-3-pills {
+    top: 1500px;
+}
+
+#pill-5-3 {
+    height: 650px;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1800px;
+    opacity: 1;
+    top: 400px;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: transparent;
+}
+
+#pill-6-3 {
+    height: 650px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1500px;
+    background: transparent;
+    border: transparent;
+}
+
+#pill-7-3 {
+    background: linear-gradient(233deg, #F5A623, #FBD249);
+    border: none;
+}
+
+#pill-8-3 {
+    left: 300px;
+    position: inherit;
+    height: 500px;
+    width: 200px;
+    border: 5px solid #FBD249;
+}
+
+#pill-9-3 {
+    height: 650px;
+    width: 250px;
+    border-radius: 150px;
+    position: inherit;
+    right: -2500px;
+    opacity: 1;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: transparent;
+    opacity: 0.2;
+}
+
+#pill-10-3 {
+    height: 350px;
+    bottom: 100px;
+    opacity: 0.3;
+    width: 150px;
+    border-radius: 150px;
+    position: inherit;
+    right: -2000px;
+    border: 1px solid;
+}
+
+#pill-11-3 {
+    height: 450px;
+    width: 200px;
+    border-radius: 150px;
+    position: inherit;
+    right: -1200px;
+    opacity: 0.2;
+    top: 700px;
+    background: transparent;
+    border: 2px solid;
+}
+
+#pill-12-3 {
+    left: 600px;
+    position: inherit;
+    height: 300px;
+    width: 120px;
+    top: 650px;
+    opacity: 0.2;
+    border: none;
+}
+
+#pill-13-3 {
+    left: 750px;
+    position: inherit;
+    height: 500px;
+    width: 200px;
+    top: -100px;
+    background: linear-gradient(233deg, #FBD249, #F5A623);
+    border: none;
+}
+
+@media only screen and (max-width:1440px) {
+    .pill {
+        height: 200px;
+        width: 100px;
+        border: 1px solid black;
+        background: transparent;
+        border-radius: 100px;
+        -webkit-transform: rotate(15deg);
+    }
+    /* Section 1 */
+    #pill-5 {
+        height: 350px;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -250px;
+        opacity: 1;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+    }
+    #pill-6 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1100px;
+        top: 100px;
+        background: transparent;
+        border: transparent;
+    }
+    #pill-7 {
+        background: linear-gradient(233deg, #F5A623, #FBD249);
+        border: none;
+    }
+    #pill-8 {
+        left: 0px;
+        position: inherit;
+        height: 300px;
+        top: 100px;
+        width: 130px;
+        border: 5px solid #FBD249;
+    }
+    #pill-9 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1500px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+        opacity: 0.7;
+    }
+    #pill-10 {
+        height: 250px;
+        bottom: -350px;
+        opacity: 0.3;
+        width: 110px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1350px;
+        border: 1px solid;
+    }
+    #pill-11 {
+        height: 350px;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1000px;
+        opacity: 0.2;
+        top: 700px;
+        background: transparent;
+        border: 2px solid;
+    }
+    #pill-12 {
+        left: 600px;
+        position: inherit;
+        height: 200px;
+        width: 100px;
+        top: 650px;
+        opacity: 0.2;
+        border: none;
+    }
+    #pill-13 {
+        left: 700px;
+        position: inherit;
+        height: 300px;
+        width: 180px;
+        top: -200px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+    /* Section 2 */
+    .section-2-pills {
+        top: -250px;
+    }
+    #pill-5-2 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1800px;
+        opacity: 1;
+        top: 400px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+    }
+    #pill-6-2 {
+        height: 650px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1500px;
+        background: transparent;
+        border: transparent;
+    }
+    #pill-7-2 {
+        background: linear-gradient(233deg, #F5A623, #FBD249);
+        border: none;
+    }
+    #pill-8-2 {
+        left: 300px;
+        position: inherit;
+        height: 500px;
+        width: 200px;
+        border: 5px solid #FBD249;
+    }
+    #pill-9-2 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2500px;
+        opacity: 1;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+        opacity: 0.2;
+    }
+    #pill-10-2 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2000px;
+        border: 1px solid;
+    }
+    #pill-11-2 {
+        height: 450px;
+        width: 200px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1200px;
+        opacity: 0.2;
+        top: 700px;
+        background: transparent;
+        border: 2px solid;
+    }
+    #pill-12-2 {
+        left: 600px;
+        position: inherit;
+        height: 300px;
+        width: 120px;
+        top: 650px;
+        opacity: 0.2;
+        border: none;
+    }
+    #pill-13-2 {
+        left: 750px;
+        position: inherit;
+        height: 500px;
+        width: 200px;
+        top: -100px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+    #pill-14-2 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        border: 1px solid;
+        top: -700px;
+    }
+    /* Section 3 */
+    .section-3-pills {
+        top: 1500px;
+    }
+    #pill-5-3 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1800px;
+        opacity: 1;
+        top: 400px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+    }
+    #pill-6-3 {
+        height: 650px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1500px;
+        background: transparent;
+        border: transparent;
+    }
+    #pill-7-3 {
+        background: linear-gradient(233deg, #F5A623, #FBD249);
+        border: none;
+    }
+    #pill-8-3 {
+        left: 300px;
+        position: inherit;
+        height: 300px;
+        width: 130px;
+        border: 5px solid #FBD249;
+    }
+    #pill-9-3 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2500px;
+        opacity: 1;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+        opacity: 0.2;
+    }
+    #pill-10-3 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2000px;
+        border: 1px solid;
+    }
+    #pill-11-3 {
+        height: 450px;
+        width: 200px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1200px;
+        opacity: 0.2;
+        top: 700px;
+        background: transparent;
+        border: 2px solid;
+    }
+    #pill-12-3 {
+        left: 600px;
+        position: inherit;
+        height: 300px;
+        width: 120px;
+        top: 650px;
+        opacity: 0.2;
+        border: none;
+    }
+    #pill-13-3 {
+        left: 750px;
+        position: inherit;
+        height: 400px;
+        width: 160px;
+        top: -100px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+}
+
+@media only screen and (max-width:900px) {}
+
+@media only screen and (max-width:575px) {
+    .pill {
+        height: 140px;
+        width: 70px;
+        border: 1px solid black;
+        background: transparent;
+        border-radius: 100px;
+        -webkit-transform: rotate(15deg);
+    }
+    /* Section 1 */
+    #pill-5 {
+        height: 300px;
+        width: 135px;
+        border-radius: 150px;
+        position: inherit;
+        right: -400px;
+        opacity: 1;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+    }
+    #pill-6 {
+        height: 250px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 120px;
+        border-radius: 150px;
+        position: inherit;
+        right: -300px;
+        top: -150px;
+        background: transparent;
+        border: transparent;
+    }
+    #pill-7 {
+        background: linear-gradient(233deg, #F5A623, #FBD249);
+        border: none;
+    }
+    #pill-8 {
+        left: -20px;
+        position: inherit;
+        height: 180px;
+        top: 100px;
+        opacity:  0.2;
+        width: 90px;
+        border: 5px solid #FBD249;
+    }
+    #pill-9 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1604px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+        opacity: 0.7;
+    }
+    #pill-10 {
+        height: 300px;
+        bottom: -200px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -458px;
+        border: 1px solid;
+    }
+    #pill-11 {
+        height: 350px;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -11110px;
+        opacity: 0.2;
+        top: 650px;
+        background: transparent;
+        border: 2px solid;
+    }
+    #pill-12 {
+        left: -80px;
+        position: inherit;
+        height: 200px;
+        width: 100px;
+        top: 600px;
+        opacity: 0.4;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+    #pill-13 {
+        left: 700px;
+        position: inherit;
+        height: 300px;
+        width: 180px;
+        top: -200px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+    /* Section 2 */
+    .section-2-pills {
+        top: -500px;
+    }
+    #pill-5-2 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1800px;
+        opacity: 1;
+        top: 400px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+    }
+    #pill-6-2 {
+        height: 650px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1500px;
+        background: transparent;
+        border: transparent;
+    }
+    #pill-7-2 {
+        background: linear-gradient(233deg, #F5A623, #FBD249);
+        border: none;
+    }
+    #pill-8-2 {
+        left: 300px;
+        position: inherit;
+        height: 500px;
+        width: 200px;
+    }
+    #pill-9-2 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2500px;
+        opacity: 1;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+        opacity: 0.2;
+    }
+    #pill-10-2 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2000px;
+        border: 1px solid;
+    }
+    #pill-11-2 {
+        height: 450px;
+        width: 200px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1200px;
+        opacity: 0.2;
+        top: 700px;
+        background: transparent;
+        border: 2px solid;
+    }
+    #pill-12-2 {
+        left: 600px;
+        position: inherit;
+        height: 300px;
+        width: 120px;
+        top: 650px;
+        opacity: 0.2;
+        border: none;
+    }
+    #pill-13-2 {
+        left: 750px;
+        position: inherit;
+        height: 500px;
+        width: 200px;
+        top: -100px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+    #pill-14-2 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        border: 1px solid;
+        top: -700px;
+    }
+    /* Section 3 */
+    .section-3-pills {
+        top: 250px;
+    }
+    #pill-5-3 {
+        height: 650px;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1800px;
+        opacity: 1;
+        top: 400px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+    }
+    #pill-6-3 {
+        height: 650px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 250px;
+        border-radius: 150px;
+        position: inherit;
+        right: -1500px;
+        background: transparent;
+        border: transparent;
+    }
+    #pill-7-3 {
+        background: linear-gradient(233deg, #F5A623, #FBD249);
+        border: none;
+    }
+    #pill-8-3 {
+        left: 300px;
+        position: inherit;
+        height: 300px;
+        width: 130px;
+        border: 5px solid #FBD249;
+    }
+    #pill-9-3 {
+        height: 200px;
+        width: 100px;
+        border-radius: 150px;
+        position: inherit;
+        right: -10px;
+        top: 500px;
+        opacity: 1;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: transparent;
+        opacity: 0.2;
+    }
+    #pill-10-3 {
+        height: 350px;
+        bottom: 100px;
+        opacity: 0.3;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -2000px;
+        border: 1px solid;
+    }
+    #pill-11-3 {
+        height: 350px;
+        width: 150px;
+        border-radius: 150px;
+        position: inherit;
+        right: -350px;
+        opacity: 0.7;
+        top: 700px;
+        background: transparent;
+        border: 2px solid;
+    }
+    #pill-12-3 {
+        left: 600px;
+        position: inherit;
+        height: 300px;
+        width: 120px;
+        top: 650px;
+        opacity: 0.2;
+        border: none;
+    }
+    #pill-13-3 {
+        left: 750px;
+        position: inherit;
+        height: 400px;
+        width: 160px;
+        top: -100px;
+        background: linear-gradient(233deg, #FBD249, #F5A623);
+        border: none;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {}

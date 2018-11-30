@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<!--
+                                                     ```                                            
+                                           `.-:/+oossssssso+/:-.`                                   
+                                       `.:+syyyyyyyyyyyyyyyyyyyys+:.                                
+                                     ./oyyyyyyyyyyyyssssyyyyyyyyyyyyo/.                             
+                                  `-oyyyyyyyyo+/:-..````...-/+oyyyyyyys+.                           
+                                `:syyyyyys+:.`                `.:+syyyyyy+......``                  
+                              `:syyyyyyo:`                        ./syyyyyyyyyyysso/.`              
+                             -oyyyyyyo-                             `/yyyyyyyyyyyyyyyo/`            
+                           `+yyyyyyo-                                 .syyyyyysssyyyyyys:`          
+                          :syyyyys-                                    `oyyyyy+``-+yyyyyyo`         
+                        .oyyyyyy/`                                      `oyyyyy/   .oyyyyys`        
+                       :yyyyyyo.                                         `syyyyy.    /yyyyys`       
+                     .oyyyyyy:                                            :yyyyyo     /yyyyy/       
+                    :yyyyyyo.                                              syyyyy.     syyyyy`      
+                  .oyyyyyy:                                                :yyyyy:     :yyyyy/      
+                `/yyyyyyo`                                                 -yyyyy+     `yyyyyo      
+               -syyyyyy:                                                   -yyyyy/      yyyyys      
+             .oyyyyyy+`                                                    /yyyyy:      yyyyys      
+           -oyyyyyyo.                                            -+o+.    `yyyyyy`     `yyyyyo      
+        `/syyyyyys:                                              syyyo    +yyyyy/      -yyyyy/      
+       -syyyyyys:                                                ./+/.   /yyyyys`      oyyyyy.      
+      .yyyyyy+-                                             -+oo-       +yyyyys.      .yyyyyo       
+      /yyyyy:                                            `:syyyyy.    .oyyyyys.       oyyyyy-       
+      +yyyyy`                                        `.:oyyyyyys/   `/yyyyyyy:       :yyyyyo        
+      /yyyyy:                                   `.-/osyyyyyyys/`  `/syyyyyyyyy+`    .yyyyyy.        
+      `yyyyyy-                       ```..--:/+ssyyyyyyyyys/.`  ./syyyyyysyyyyys/` `syyyyy:         
+       -yyyyyy/`            ./ooooosssssyyyyyyyyyyyyyys+:.`  `:oyyyyyyy+.`/yyyyyys/oyyyyy/          
+        -syyyyys/.          syyyyyyyyyyyyyyyyyysso+:-``   .:+syyyyyys/.    .+yyyyyyyyyyy+           
+         `/yyyyyys+:.       :ossssssssooo+//:-.``    `.-/osyyyyyyyo:`        ./syyyyyyy+`           
+           .+syyyyyyso/-.`   ``````````      ``..-:/osyyyyyyyyyo/.             `-+syyy/             
+             `:oyyyyyyyyyso+/:--..---:://++oosssyyyyyyyyyyyso:.                   `.--              
+                .:osyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyss+:.`                                        
+                   `.:+osyyyyyyyyyyyyyyyyyyyyyssso+/-.`                                             
+                        `.-://++o++++///::--..``
+
+
+                                                                     MangoHacks2018<3
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://lh3.googleusercontent.com/H4JmVsG7iPDd2UOW6XEBhTCp5XOsvvUYGkx6nuKikEJYEOKST7iMolLZiVgMxRxXetX-qr5YbOakzxMe84HnBRG8wKKuKylbZUz4hIbSAGBLFT5ThzuEbUQb_AubZhfAXw9sAjhtAPFAwjkHvTEIR3z8ima3Wmt8vSI0_ELihHQZh5tVKtey-5AbvN3RooFrew-yaypgC_PsLjIETqMUcZNY7_Tmyn9sdwnE6mbaOCMTKLJX2ZoTzy8mFpjvjJAd8K5Aww7c4KM0sTuNv8xQYdZYXte6UF3tUYl3PMCMc8BPMaYxjybkZknrSPyI1GoDfpr1fIz8b4LW6G9EOIxucbQcFyPzEixauhW0hsBPyDfr7BOUGgi4JQKRaInAL0wpkw4JVZ0peCLiyJj2my9WcWJ2nKFr2u5sIOZQw4y1QE3sZZE_tsKc3kD1CKHeDM750FbmGxRR3DNWAXkg403M8rkgVCFwqFJIaa7r8qNgu-wtWCFCOosb4iLza3oSyECC87xyLHzsyXc3UPC1NloHeBEJ9kCoFD9cDIcXKW90ybUpQIxxguFoHAIdAp32gVK8b6RCKYVcWeWJX804VGGls8f7PUQ3klVUNskFokE=w271-h198-no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MangoHacks - Signup</title>
+</head>
+
+<body>
+    <div class="signup-bg-color">
+        <img src="img/mangos/white-mango.svg" id="signup-mango" alt="" />
+        <div class="signup">
+            <h1>MANGOHACKS</h1>
+            <h2>Register for Florida's sweetest Hackathon</h2>
+            <form action="http://mangohacks.com:8050/form/" id="form" method="post" encType="multipart/form-data">
+                <div class="form-group">
+                    <div class="input-field inline col s12" type="text" tabindex="-1">
+                        <label id="name-label" for="name">Name</label>
+                        <input type="text" name="name" id="name" class="name" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-field inline col s12" type="text" tabindex="-1">
+                        <label id="email-label" for="email">Email</label>
+                        <input type="email" id="email" name="email" class="email" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-field inline col s12" type="text" tabindex="-1">
+                        <label id="school-label" for="school">School</label>
+                        <input type="text" list="schools" name="school" class="school" required id="school" />
+                    </div>
+                </div>
+                <datalist id="schools">
+                    <option value="Florida International University" />
+                    <option value="University of Florida" />
+                    <option value="University of Central Florida" />
+                    <option value="University of South Florida" />
+                    <option value="Florida State University" />
+                    <option value="University of Miami" />
+                    <option value="Florida Atlantic University" />
+                    <option value="University of North Florida" />
+                    <option value="Miami-Dade College" />
+                    <option value="Florida Gulf Coast University" />
+                    <option value="Florida A&M University" />
+                    <option value="Broward College" />
+                    <option value="Valencia College" />
+                    <option value="Nova Southeastern University" />
+                    <option value="University of Tampa" />
+                    <option value="Barry University" />
+                    <option value="Florida Polytechnic University" />
+                    <option value="Stetson University" />
+                    <option value="University of West Florida" />
+                    <option value="Santa Fe College" />
+                    <option value="Jacksonville University" />
+                    <option value="St. Thomas University" />
+                    <option value="Florida National University" />
+                    <option value="Georgia Institute of Technology" />
+                    <option value="University of Massachusetts Amherst" />
+                    <option value="University of Washington" />
+                </datalist>
+                <div class="form-group">
+                    <div class="input-field inline col s12" type="text" tabindex="-1">
+                        <label id="major-label" for="major">Major</label>
+                        <input type="text" list="majors" name="major" class="major" required id="major" />
+                    </div>
+                </div>
+                <datalist id="majors">
+                    <option value="Computer Science" />
+                    <option value="Computer Engineering" />
+                    <option value="Information Technology" />
+                    <option value="Business" />
+                    <option value="Electrical Engineering" />
+                    <option value="Art" />
+                    <option value="Biology" />
+                    <option value="Architecture" />
+                    <option value="Marketing" />
+                    <option value="Chemistry" />
+                    <option value="Liberal Arts" />
+                </datalist>
+                <div class="form-group">
+                    <div class="input-field inline col s12" type="text" tabindex="-1">
+                        <label id="github-label" for="github">GitHub Profile Link</label>
+                        <input type="url" name="github" class="github" id="github" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-field inline col s12" type="text" tabindex="-1">
+                        <label id="diet-label" for="diet">Dietary Restrictions</label>
+                        <input type="text" name="diet" class="diet" id="diet" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select class="form-control" name="gender" id="gender" required>
+                        <option value=""></option>
+			<option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="year">School Year</label>
+                    <select class="form-control" id="year" name="year" required>
+                        <option value=""></option>
+			<option value="Freshman">Freshman</option>
+                        <option value="Sophmore">Sophomore</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                        <option value="New Grad">New Grad</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Shirt Size</label required>
+                    <select class="form-control" id="size" name="size" required>
+			<option value=""></option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="X-Large">X-Large</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Resume</label><br>
+                    <input type="file" name="resume" class="" id="resume" />
+                </div>
+                <div class="form-group" style="font-size:13px;" class="mlh-cc"> <p>By registering you agree to the
+                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style="text-decoration:none; color:black">
+                        <u>MLH Code of Conduct </u>
+                    </a>
+                    </p>
+                </div>
+                <button class="btn signupbutton-2 btn-block" style="width:100%;" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            var $emailinput = $('#email');
+            var $emaillabel = $('#email-label');
+            var $nameinput = $('#name');
+            var $namelabel = $('#name-label');
+            var $schoolinput = $('#school');
+            var $schoollabel = $('#school-label');
+            var $majorinput = $('#major');
+            var $majorlabel = $('#major-label');
+            var $dietinput = $('#diet');
+            var $dietlabel = $('#diet-label');
+            var $githubinput = $('#github');
+            var $githublabel = $('#github-label');
+
+            $emailinput.on('focus', function (event) {
+                $emaillabel.addClass('active');
+            });
+            $emailinput.on('blur', function (event) {
+                if ($emailinput.val().trim() == "") {
+                    $emaillabel.removeClass('active');
+                }
+            });
+            $nameinput.on('focus', function (event) {
+                $namelabel.addClass('active');
+            });
+            $nameinput.on('blur', function (event) {
+                if ($nameinput.val().trim() == "") {
+                    $namelabel.removeClass('active');
+                }
+            });
+
+            $schoolinput.on('focus', function (event) {
+                $schoollabel.addClass('active');
+            });
+            $schoolinput.on('blur', function (event) {
+                if ($schoolinput.val().trim() == "") {
+                    $schoollabel.removeClass('active');
+                }
+            });
+
+            $majorinput.on('focus', function (event) {
+                $majorlabel.addClass('active');
+            });
+            $majorinput.on('blur', function (event) {
+                if ($majorinput.val().trim() == "") {
+                    $majorlabel.removeClass('active');
+                }
+            });
+
+            $dietinput.on('focus', function (event) {
+                $dietlabel.addClass('active');
+            });
+            $dietinput.on('blur', function (event) {
+                if ($dietinput.val().trim() == "") {
+                    $dietlabel.removeClass('active');
+                }
+            });
+
+            $githubinput.on('focus', function (event) {
+                $githublabel.addClass('active');
+            });
+            $githubinput.on('blur', function (event) {
+                if ($githubinput.val().trim() == "") {
+                    $githublabel.removeClass('active');
+                }
+            });
+        });
+    </script>
+    <script>
+        $('#form').submit(function (event) {
+            event.preventDefault();
+
+            var $form = $(this),
+                name = $form.find("input[name='name']").val(),
+                email = $form.find("input[name='email']").val(),
+                school = $form.find("input[name='school']").val(),
+                major = $form.find("input[name='major']").val(),
+                github = $form.find("input[name='github']").val(),
+                diet = $form.find("input[name='diet']").val(),
+                gender = $form.find("select[name = 'gender'").val(),
+                year = $form.find("select[name = 'year']").val(),
+                size = $form.find("select[name = 'size']").val(),
+		resume = ("#resume")next().val(),
+                url = $form.attr("action");
+            var posting = $.post(url, { name: name, email: email, school: school, major: major, github: github, diet: diet, gender: gender, resume: resume, major: major, size: size });
+	    window.location.href = "http://mangohacks.com/thankyou-attendee.html";
+        })
+    </script>
+</body>
+</html>
